@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    border: 1px solid black;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    margin: 20px 2px;
+    width: 250px;
+    height: 450px;
+    background-color: chartreuse;
+    display: inline-block;
+}
+
+.card img {
+    width: 100%;
+}
+
