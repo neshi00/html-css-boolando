@@ -51,6 +51,10 @@
     bottom: 100px;
 }
 
+.tag.sesto-modello {
+    left: 0;
+}
+
 .dettagli {
     text-align: left;
 }
@@ -71,8 +75,18 @@
 
 .prezzo-listino {
     text-decoration: line-through;
-
 }
 
+.other-view {
+    display: none;
+}
+
+.card:hover .normal {
+    display: none;
+}
+
+.card:hover .other-view {
+    display: inline-block;
+}
 
 
